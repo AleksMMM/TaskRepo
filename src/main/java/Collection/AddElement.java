@@ -16,7 +16,7 @@ public class AddElement {
 
         int size = list.size();
         list.add(str);
-        if (size > list.size()) {
+        if (size < list.size()) {
             return true;
         }
         return false;
